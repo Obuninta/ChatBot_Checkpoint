@@ -65,16 +65,16 @@ def get_response(user_input):
     return df['Answers'].iloc[most_similar_index] # ... Retrieve the corresponding answer from the df DataFrame and return it as the chatbot's response
 
 # create greeting list 
-greetings = ["Hey There.... I am a creation of Ehiz Danny Agba Coder.... How can I help",
-            "Hi Human.... How can I help",
-            'Twale baba nla, wetin dey happen nah',
-            'How far Alaye, wetin happen'
+greetings = ["Hey There.... I am a creation of Ugochukwu Obuninta.... How can I help",
+            "Hi there.... How can I help",
+            'Would you like to know more about mental health',
+            # 'For more enquiries, please visit our website'
             "Good Day .... How can I help", 
             "Hello There... How can I be useful to you today",
             "Hi GomyCode Student.... How can I be of use"]
 
 exits = ['thanks bye', 'bye', 'quit', 'exit', 'bye bye', 'close']
-farewell = ['Thanks....see you soon', 'Babye, See you soon', 'Bye... See you later', 'Bye... come back soon']
+farewell = ['Thanks....see you soon', 'Bye, See you soon', 'Bye... See you later', 'Bye... come back soon']
 
 random_farewell = random.choice(farewell) # ---------------- Randomly select a farewell message from the list
 random_greetings = random.choice(greetings) # -------- Randomly select greeting message from the list
